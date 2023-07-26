@@ -1,0 +1,12 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #818181;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
