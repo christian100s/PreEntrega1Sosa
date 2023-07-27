@@ -2,6 +2,7 @@
 import { Carrito } from './CartWidget'
 import './NavBar.css'
 import './CartWidget.css'
+import './ItemListContainer.css'
 import { BotonesLista } from './BotonesLista'
 
 export const NavBar = () => {
@@ -16,13 +17,8 @@ export const NavBar = () => {
         <BotonesLista rubro="Sillas"/>
         <BotonesLista rubro="Sillones"/>
       </div>
-        <ul>
-          <li className="nav-item carritoCompras">
-            <Carrito items={0}/>  
-
-          </li>  
-        </ul>
+        <Carrito items={0}/>  
       </div>
     </nav>
-    </div>;</>
+    </div></>
 }
