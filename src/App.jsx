@@ -1,6 +1,6 @@
 import './App.css'
-import { NavBar } from './components/NavBar/NavBar'
-import { Mensaje } from './components/ItemListContainer/ItemListContainer'
+import { NavBar } from './components/NavBar'
+import { Mensaje } from './components/ItemListContainer'
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
     <>
     <NavBar/>
     <div>
-      <Mensaje mensaje="Bienvenidos a mi E-Commerce"/>
+      <Mensaje greeting="Bienvenidos a mi E-Commerce"/>
     </div>
     </>
   )
